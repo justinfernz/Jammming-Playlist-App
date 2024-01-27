@@ -55,7 +55,7 @@ function App() {
     Spotify.search(term).then((result) => setSearchResults(result));
     console.log(term);
   }
-  
+
   return (
     <div>
       <h1>
@@ -66,13 +66,13 @@ function App() {
 
         <div className="App-playlist">
           <SearchResults userSearchResults={searchResults} onAdd={addTrack} />
-
-          <Playlist
-            playlistName={playlistName}
-            playlistTracks={playlistTracks}
-            onRemove={removeTrack}
-            onNameChange={updatePlaylistName}
-            onSave={savePlaylist}
+          
+          <Playlist 
+          playlistName={playlistName} 
+          playlistTracks={playlistTracks} 
+          onRemove={removeTrack} 
+          onNameChange={updatePlaylistName} 
+          onSave={savePlaylist}
           />
         </div>
       </div>

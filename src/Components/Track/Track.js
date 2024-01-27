@@ -26,7 +26,7 @@ function Track(props) {
     props.onRemove(props.track);
   }
   return (
-    <div className={styles.Track}>
+    <div className="Track">
       <div className="Track-information">
         <h3>{props.track.name}</h3>
         <p>

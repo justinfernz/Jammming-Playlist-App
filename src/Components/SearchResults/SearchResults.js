@@ -5,7 +5,6 @@ import TrackList from "../TrackList/TrackList";
 function SearchResults(props) {
     return (
       <div className="SearchResults">
-        {/* <!-- Add a Tracklist component --> */}
         <TrackList
           userSearchResults={props.userSearchResults}
           isRemoval={false}

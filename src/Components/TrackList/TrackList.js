@@ -4,7 +4,7 @@ import Track from "../Track/Track";
 
 function Tracklist(props) {
     return (
-        <div className="Tracklist">
+        <div className="TrackList">
             {props.userSearchResults.map((track) => (
                 <Track
                     track={track}

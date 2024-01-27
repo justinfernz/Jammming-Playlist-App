@@ -1,12 +1,12 @@
 .Track {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid rgb(256, 256, 256, 0.5);
+
 }
 
 .Track-action {
   cursor: pointer;
-  padding: .15rem .5rem;
+  padding: .1rem .5rem;
   font-size: 1.25rem;
   transition: color .25s;
   border: 0px;
